@@ -1,0 +1,56 @@
+node-global-modules (2.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-global-prefix.
+    + node-global-modules: Drop versioned constraint on node-global-prefix in
+      Depends.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Mon, 15 Nov 2021 12:39:54 +0100
+
+node-global-modules (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 2.0.0
+  * Refresh patch
+  * Remove dependencies to node-is-windows and node-resolve-dir
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 15 Dec 2020 17:03:37 +0100
+
+node-global-modules (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 24 Jan 2018 17:34:48 +0530
+
+node-global-modules (0.2.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #842672)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 31 Oct 2016 15:54:34 +0530

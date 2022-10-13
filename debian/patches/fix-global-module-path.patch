@@ -1,0 +1,15 @@
+Description: fix global module path
+Reviewed-By: Xavier Guimard <yadd@debian.org>
+Last-Update: 2020-12-15
+
+--- a/index.js
++++ b/index.js
+@@ -15,7 +15,7 @@
+   if (process.platform === 'win32' || process.env.OSTYPE === 'msys' || process.env.OSTYPE === 'cygwin') {
+     return path.resolve(prefix, 'node_modules');
+   }
+-  return path.resolve(prefix, 'lib/node_modules');
++  return path.resolve(prefix, 'lib/nodejs');
+ }
+ 
+ /**
