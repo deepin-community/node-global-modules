@@ -1,3 +1,11 @@
+node-global-modules (2.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Drop test: useless and rot relevant (Closes: #1022401)
+
+ -- Yadd <yadd@debian.org>  Sun, 23 Oct 2022 19:48:50 +0200
+
 node-global-modules (2.0.0-2) unstable; urgency=medium
 
   * Team upload
